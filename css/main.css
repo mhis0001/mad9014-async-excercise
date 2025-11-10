@@ -1,0 +1,52 @@
+
+body {
+  font-family: "Inter", Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #000000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  transition: background-color 0.6s ease;
+  padding: 2rem;
+}
+
+header {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #000000;
+  letter-spacing: 1px;
+}
+
+main {
+  max-width: 600px;
+  width: 100%;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+main h2 {
+  color: #36bf7f;
+  margin-bottom: 1.5rem;
+}
+
+main p {
+  background-color: #e9f7ef;
+  border-left: 4px solid #36bf7f;
+  padding: 0.75rem 1rem;
+  margin-top: 1rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  animation: fadeIn 0.6s ease;
+}
+
+
